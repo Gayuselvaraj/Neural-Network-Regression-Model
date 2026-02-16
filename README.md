@@ -64,7 +64,7 @@ class NeuralNet(nn.Module):
 # Initialize the Model, Loss Function, and Optimizer
 amirtha_brain=NeuralNet()
 criterion = nn.MSELoss()
-optimizer = optim.RMSprop(amirtha_brain.parameters(), lr=0.001)
+optimizer = optim.RMSprop(GAYU_brain.parameters(), lr=0.001)
 
 def train_model(GAYU_brain, X_train, y_train, criterion, optimizer, epochs=2000):
     for epoch in range(epochs):
