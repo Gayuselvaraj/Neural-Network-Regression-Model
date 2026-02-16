@@ -62,7 +62,7 @@ class NeuralNet(nn.Module):
         return x
 
 # Initialize the Model, Loss Function, and Optimizer
-amirtha_brain=NeuralNet()
+GAYU_brain=NeuralNet()
 criterion = nn.MSELoss()
 optimizer = optim.RMSprop(GAYU_brain.parameters(), lr=0.001)
 
