@@ -72,25 +72,27 @@ def train_model(GAYU_brain, X_train, y_train, criterion, optimizer, epochs=2000)
         loss = criterion(GAYU_brain(X_train), y_train)
         loss.backward()
         optimizer.step()
-        amirtha_brain.history['loss'].append(loss.item())
+        GAYU_brain.history['loss'].append(loss.item())
         if epoch % 200 == 0:
             print(f'Epoch [{epoch}/{epochs}], Loss: {loss.item():.6f}')
 
 
 ```
 ## Dataset Information
+<img width="591" height="178" alt="image" src="https://github.com/user-attachments/assets/67f82a8e-dca6-41f4-bf76-54ed4c7212ac" />
 
-<img width="306" height="563" alt="image" src="https://github.com/user-attachments/assets/9bbbee87-4e6c-4cdf-80f7-da4cb9834db3" />
 
 
 ## OUTPUT
 
-<img width="663" height="452" alt="image" src="https://github.com/user-attachments/assets/b9a8dd3c-8771-429a-aeb8-8c5db682e043" />
+<img width="729" height="410" alt="image" src="https://github.com/user-attachments/assets/9ba262e5-8431-4541-9d0e-63b80f06163f" />
+
 
 
 ### New Sample Data Prediction
 
-<img width="733" height="117" alt="image" src="https://github.com/user-attachments/assets/c89a0218-7208-45cb-a9ec-32d2afd06850" />
+<img width="774" height="91" alt="image" src="https://github.com/user-attachments/assets/06724d96-38ba-4122-b872-4ec06defc7cf" />
+
 
 
 ## RESULT
