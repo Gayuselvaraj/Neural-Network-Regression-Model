@@ -79,19 +79,20 @@ def train_model(GAYU_brain, X_train, y_train, criterion, optimizer, epochs=2000)
 
 ```
 ## Dataset Information
-<img width="591" height="178" alt="image" src="https://github.com/user-attachments/assets/67f82a8e-dca6-41f4-bf76-54ed4c7212ac" />
+<img width="735" height="283" alt="image" src="https://github.com/user-attachments/assets/f3557d71-880a-47e2-b4c7-b45243806912" />
 
 
 
 ## OUTPUT
 
-<img width="729" height="410" alt="image" src="https://github.com/user-attachments/assets/9ba262e5-8431-4541-9d0e-63b80f06163f" />
+<img width="811" height="573" alt="image" src="https://github.com/user-attachments/assets/f26d1efd-2da2-4482-9a7d-f32872b5fdf7" />
 
 
 
 ### New Sample Data Prediction
 
-<img width="774" height="91" alt="image" src="https://github.com/user-attachments/assets/06724d96-38ba-4122-b872-4ec06defc7cf" />
+
+<img width="811" height="155" alt="image" src="https://github.com/user-attachments/assets/b81a8261-8805-423d-b0a6-8a6b46d932a0" />
 
 
 
